@@ -9,16 +9,17 @@ header, footer {
   padding: 1rem;
 }
 
-form {
+nav {
   margin: 1rem 0;
 }
 
-input {
-  margin: 0.5rem;
+button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-.destino {
-  border: 1px solid #ddd;
-  margin: 1rem;
-  padding: 1rem;
+button:hover {
+  background-color: #ddd;
 }
